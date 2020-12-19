@@ -1,0 +1,113 @@
+Body{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+.bigger-text{
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+p{
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+.grad{
+  color: hsl(0, 0%, 81%);
+}
+.testimonial-top{
+  padding: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+.testimonial-image{
+  border-radius: 50%;
+  float: left;
+  margin-right: 25px;
+  position: relative;
+  bottom: 13px
+}
+.testimonial-middle{
+  padding: 10px 0;
+}
+.container-fluid{
+  padding: 5% 5% 0%;
+}
+.row, .col-lg-8, .col-lg-4, .col-lg-9, .col-lg-3{
+  margin: 0;
+  padding:0;
+}
+.height{
+  height: 90%;
+}
+.height2{
+  height: 95%;
+  margin-right: 0;
+}
+.tesimonial-cards{
+  margin: 0 25px 25px 0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px grey;
+}
+.card1{
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-position: 80% 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.card1 .name, .card1 .bigger-text{
+color: hsl(0, 0%, 100%);
+}
+.card1 .testimonial-image, .card4 .testimonial-image{
+  border: 3px solid hsl(263, 55%, 70%);
+}
+.card2 .testimonial-image, .card3 .testimonial-image, .card5 .testimonial-image{
+  border: 3px solid White;
+}
+.card2{
+  background-color: hsl(217, 19%, 35%);
+}
+.card2 .name, .card2 .bigger-text{
+color: hsl(0, 0%, 100%);
+}
+.card3{
+  background-color: hsl(0, 0%, 100%);
+}
+.card3 .name, .card3 .bigger-text{
+color: hsl(217, 19%, 35%);
+}
+.card4{
+  background-color: hsl(219, 29%, 14%);
+}
+.card4 .name, .card4 .bigger-text{
+color: hsl(0, 0%, 100%);
+}
+.card5{
+  background-color: hsl(0, 0%, 100%);
+}
+.card5 .name, .card5 .bigger-text{
+color: hsl(217, 19%, 35%);
+}
+.attribution { font-size: 11px; text-align: center; margin-bottom: 20px}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:991px) {
+  .tesimonial-cards{
+    margin: 0 0 25px 0;
+  }
+}
+@media (min-width:992px) {
+  .height{
+    height: 90%;
+  }
+  .height2{
+    height: 95%;
+    margin-right: 0;
+}
+}
